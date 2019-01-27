@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">MaterialAnimation</string>
+	<string name="description">Welcome to Android Material Design Animation Sample App. This app contains basic demo
+		codes of different types of animations in separate Activity.
+	</string>
+	<string name="explode_java">Explode - Java</string>
+	<string name="explode_xml">Explode - XML</string>
+	<string name="slide_java">Slide - Java</string>
+	<string name="slide_xml">Slide - XML</string>
+	<string name="fade_java">Fade - Java</string>
+	<string name="fade_xml">Fade - XML</string>
+	<string name="shared_element">Shared Element</string>
+	<string name="ripple_border">Ripple with Border</string>
+	<string name="ripple_without_border">Ripple Without Border</string>
+	<string name="custom_ripple_border">Custom Ripple With Border</string>
+	<string name="custom_ripple_borderless">Custom Ripple Without Border</string>
+	<string name="exit">Exit</string>
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:background="?android:colorPrimary"
+		android:elevation="@dimen/elevation_header"
+		app:theme="@style/ToolBarTheme"/>
+
+	<TextView
+		android:id="@+id/activity_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:text="@string/shared_element"
+		android:textColor="@android:color/black"
+		android:textSize="20sp"
+		android:transitionName="text_shared"/>
+
+	<ImageView
+		android:id="@+id/square_red"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:src="@drawable/star"
+		android:tint="@android:color/holo_orange_dark"
+		android:transitionName="star"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:gravity="center"
+		android:text="@string/description"/>
+
+	<Button
+		android:id="@+id/exit_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/exit"/>
+
+
+</LinearLayout>
