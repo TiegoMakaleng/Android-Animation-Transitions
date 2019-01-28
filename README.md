@@ -1,1 +1,1 @@
-### This app demonstrates Animation and Transitions in Android
+### This project demonstrates Animation and Transitions in Android
